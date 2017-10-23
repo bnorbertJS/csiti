@@ -2,17 +2,17 @@
 
 Csiti is going to be a set of different kind of customizable components written in ReactJS, in order to practise and stuff.
 
-### Usage(Hope Ill have some time to finalize some of the already written components. Currently its not available on npm):
+### Usage(Only 1 test component available now more coming soon :O):
 
 ```
 npm install csiti
 ```
 ```
-import {Button} from "csiti";
+import {Buttontest} from "csiti";
 ```
 ```
 // Example usage of a button
-<Button text="Button" bgColor="success" textColor="white" onPress={this.onClick}/>
+<Buttontest text="Button" bgColor="info" textColor="white" onPress={this.onClick}/>
 ```
 
 ### TechStack:
