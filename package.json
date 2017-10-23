@@ -1,11 +1,19 @@
 {
   "name": "csiti",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Csiti - An easy to use component library",
+  "keywords": [
+    "react",
+    "reactjs",
+    "jsx",
+    "react-component",
+    "styled-components"
+  ],
   "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel lib -d build",
+    "prod": "minify build -d prod",
     "prepublish": "npm run build"
   },
   "author": "Norbert Braun",
